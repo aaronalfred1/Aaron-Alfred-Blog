@@ -3,324 +3,296 @@
    ========================================================================== */
 
 body {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 0;
-	margin: 0;
-	line-height: 30px;
-	font-family: 'Roboto', sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
 }
-
-
 
 #logo {
     height: 80px;
     margin: 0 0 10px 0;
-	
 }
-
 
 // Typography
 
+a {
+    color: #3979c6;
+}
 
-	a {
-		color: #3979c6;
-	}
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
 
-	h4 {
-	font-size: 20px;
-	line-height: 30px;
-	}
-
-	h5 {
-		color: #555;
-		font-size: 16px;
-		font-weight: 300;
-		text-transform: none;
-	}
+h5 {
+    color: #555;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+}
 
 /* ==========================================================================
    Chip
    ========================================================================== */
 
 .contactstrip {
-	width: 90%;
-	height: 100px;
-	background: #eee;
-	text-align: center;
-	border-bottom: 1px solid #ddd;
-	padding: 20px 5% 5px 5%;
-	margin: 0 0 20px 0;
-
-	.greybox {
-		width: 19%;
-		height: 80px;
-		margin: 0 3% 0 3%;
-		float: left;
-		display: block;
-		background: #3979c6 url("../images/icon.png") no-repeat;
-		background-position: center;
-	}
-}	
+    width: 90%;
+    height: 100px;
+    background: #eee;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 5% 5px 5%;
+    margin: 0 0 20px 0;
+    .greybox {
+        width: 19%;
+        height: 80px;
+        margin: 0 3% 0 3%;
+        float: left;
+        display: block;
+        background: #3979c6 url("../images/icon.png") no-repeat;
+        background-position: center;
+    }
+}
 
 .header {
-	width: 100%;
-	height: 10px;
-	background: #1956b0;
-	padding: 5px 0 5px 0;
-	border-bottom: 1px solid #124a9f;
-	box-shadow: 3px 3px 3px 3px #333;
+    width: 100%;
+    height: 10px;
+    background: #1956b0;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #124a9f;
+    box-shadow: 3px 3px 3px 3px #333;
 }
 
-	.headercontent {
-		width: 80%;
-		height: 20px;
-		padding: 0;
-		margin: 2px auto;
-	}
+.headercontent {
+    width: 80%;
+    height: 20px;
+    padding: 0;
+    margin: 2px auto;
+}
 
-		.headercontent h2 {
-			width: 30%;
-			display: inline-block;
-			float: left;
-		}
+.headercontent h2 {
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
 
-		.headercontent ul {
-			width: 400px;
-			float: right;
-			margin: 4px 0 0 0 ;
-			padding: 0;
-			color: #fff;
-		}
-			.headercontent ul li {
-				width: 80%;
-				list-style: none;
-				display: inline;
-				font-size: 24px;
-				font-weight: 300;
-				margin: 0 0 0 30px;
-         		font-family: 'Source Sans Pro', sans-serif;
-         		display: none;
-			}
+.headercontent ul {
+    width: 400px;
+    float: right;
+    margin: 4px 0 0 0;
+    padding: 0;
+    color: #fff;
+}
 
-
+.headercontent ul li {
+    width: 80%;
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 0 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+}
 
 .content {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto 0 auto;
-	background-color: #fff;
-	padding: 0 0 40px 0;
-	border-radius: 1px;
-
-}
-	
-	.featuredimage {
-		width: 100%;
-		height: auto;
-		background: #3979c6;
-		background-position: center;
-		background-size: 100% 100%;
-		padding: 0 0 0 0 ;
-
-
-		#dottedline {
-			// z-index: 999;
-			// display: block;
-			position: absolute;
-			top: 145px;
-			z-index: 1;
-			display: none;
-		}
-
-
-		.featuredmodal {
-
-			width: 100%;
-			height: 450px;
-			margin: 0px auto 20px auto;
-			border-radius: 3px;
-			padding: 50px 0 0 0;
-			background: #3979c6 url("../images/kitchen_pro.jpg") no-repeat;
-			background-size: cover;
-			background-position: center;
-			border-bottom: 1px solid #124a9f;
-
-
-			h1, h4 {
-				color: #fff;
-				z-index: 12;
-				position: relative;
-				text-align: left;
-				text-shadow: 2px 2px 3px #124a9f;
-			}
-
-
-			button {
-				width: 250px;
-				height: 50px;
-				background: #fe8121;
-				border-radius: 4px;
-				clear: both;
-				margin: 0 -5px 0 0;
-				border: 2px solid #b55003;
-				font-size: 25px;
-				color: #fff;
-				text-transform: uppercase;
-				position: relative;
-				z-index: 22;
-				box-shadow: 0 1px 0px 5px #78b0e9;
-				font-family: 'Roboto', sans-serif;
-				font-weight: 400;
-				letter-spacing: 2px;
-			}
-
-			span.trait {
-				width: 42%;
-				float: left;
-				margin: 60px 2% 0 2%;
-				padding: 15px 2%;
-				text-align: left;
-
-				color: #fff;
-
-				h4 {
-					color: #fff;
-				}
-			}
-		}
-	}
-
-
-
-	.tiles {
-		width: 92%;
-		height: auto;
-		padding: 40px 4% 40px 4%;
-		margin: 0 auto;
-		display: inline-block;
-		position: relative;
-		z-index: 22;
-		text-align: center;
-
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+    padding: 0 0 40px 0;
+    border-radius: 1px;
 }
 
-	.tile {
-		width: 25%;
-		height: 100%;
-		float: left;
-		margin: 6px 0 20px 0;
-		padding: 0 0 20px 0;
-		line-height: 0;
+.featuredimage {
+    width: 100%;
+    height: auto;
+    background: #3979c6;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 0 0 0 0;
+    #dottedline {
+        // z-index: 999;
+        // display: block;
+        position: absolute;
+        top: 145px;
+        z-index: 1;
+        display: none;
+    }
+    .featuredmodal {
+        width: 100%;
+        height: 450px;
+        margin: 0px auto 20px auto;
+        border-radius: 3px;
+        padding: 50px 0 0 0;
+        background: #3979c6 url("../images/kitchen_pro.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-bottom: 1px solid #124a9f;
+        h1, h4 {
+            color: #fff;
+            z-index: 12;
+            position: relative;
+            text-align: left;
+            text-shadow: 2px 2px 3px #124a9f;
+        }
+        button {
+            width: 250px;
+            height: 50px;
+            background: #fe8121;
+            border-radius: 4px;
+            clear: both;
+            margin: 0 -5px 0 0;
+            border: 2px solid #b55003;
+            font-size: 25px;
+            color: #fff;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 22;
+            box-shadow: 0 1px 0px 5px #78b0e9;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+        span.trait {
+            width: 42%;
+            float: left;
+            margin: 60px 2% 0 2%;
+            padding: 15px 2%;
+            text-align: left;
+            color: #fff;
+            h4 {
+                color: #fff;
+            }
+        }
+    }
+}
 
-	}
+.tiles {
+    width: 92%;
+    height: auto;
+    padding: 40px 4% 40px 4%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    z-index: 22;
+    text-align: center;
+}
 
-		.tile img {
-			width: 90%;
-			opacity: 0.9;
-			margin: 0 0 10px 0;
-		}
-		.tile img:hover {
-			opacity: 1
-		}
+.tile {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 6px 0 20px 0;
+    padding: 0 0 20px 0;
+    line-height: 0;
+}
 
-		.tile h2 {
-			padding: 10px 10px 0 10px;
-			text-align: left;
-			margin: 0 0 40px 0;
-		}
+.tile img {
+    width: 90%;
+    opacity: 0.9;
+    margin: 0 0 10px 0;
+}
 
-		.tile h5 {
-			width: 90%;
-			margin: 0 auto;
-			text-align: left;
+.tile img:hover {
+    opacity: 1;
+}
 
-		}
+.tile h2 {
+    padding: 10px 10px 0 10px;
+    text-align: left;
+    margin: 0 0 40px 0;
+}
 
-		.tile a {
-			text-decoration: none;
-		}
+.tile h5 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
 
-	.sectiontitle {
-		width: 101%;
-		height: 50px;
-		margin: 0 auto 35px auto;
-		padding: 20px 0 0 0;
-			
+.tile a {
+    text-decoration: none;
+}
 
-			hr {
-			    padding: 0;
-			    border: none;
-			    border-top: medium double #3979c6;
-			    color: #333;
-			    text-align: center;
-			}
-			hr:after {
-			    content: "  Recent Work  ";
-			    display: inline-block;
-			    position: relative;
-			    top: -0.7em;
-			    font-size: 1.5em;
-			    font-weight: 200;
-			    color: #3979c6;
-			    margin: -5px 0 11px 0;
-			    padding: 0 20px;
-			    background: white;
-			}
+.sectiontitle {
+    width: 101%;
+    height: 50px;
+    margin: 0 auto 35px auto;
+    padding: 20px 0 0 0;
+    hr {
+        padding: 0;
+        border: none;
+        border-top: medium double #3979c6;
+        color: #333;
+        text-align: center;
+    }
+    hr:after {
+        content: "  Recent Work  ";
+        display: inline-block;
+        position: relative;
+        top: -0.7em;
+        font-size: 1.5em;
+        font-weight: 200;
+        color: #3979c6;
+        margin: -5px 0 11px 0;
+        padding: 0 20px;
+        background: white;
+    }
+}
 
-	}
-
-	.quote {
-		width: 80%;
-		background-image: url('../images/city.jpg');
-		background-size: cover;
-		height: 270px;
-		float: left;
-		margin: 0 0 0 0;
-		padding: 230px 10% 0 10%;
-		border-top: 1px solid #124a9f;
-		border-bottom: 20px solid #124a9f;
-		text-align: center;
-
-		h1 {
-			color: #fff;
-		}
-	}	
+.quote {
+    width: 80%;
+    background-image: url("../images/city.jpg");
+    background-size: cover;
+    height: 270px;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 230px 10% 0 10%;
+    border-top: 1px solid #124a9f;
+    border-bottom: 20px solid #124a9f;
+    text-align: center;
+    h1 {
+        color: #fff;
+    }
+}
 
 .squarebutton {
-	width: 70px !important;
-	height: 100px;
-	background: #333;
+    width: 70px !important;
+    height: 100px;
+    background: #333;
 }
 
-	#facebook { background: #425ca5;}
-	#twitter { background: #01aced;}
-	#email { background: #fff;}
+#facebook {
+    background: #425ca5;
+}
 
+#twitter {
+    background: #01aced;
+}
 
-
-
-
-
+#email {
+    background: #fff;
+}
 
 // @-webkit-keyframes fadein {
 //   from { opacity:0 }
 //   to {opacity:1}
 // }
- 
+
 // .tile img, .featuredmodal {
 //   -webkit-animation:fadein 2s linear ;
 // }
-
-
 
 // @-webkit-keyframes fadeup {
 //   from { margin-bottom: 5px;}
 //   to { margin-bottom: 17px;}
 // }
- 
+
 // .featuredmodal h1, .featuredmodal h4 {
 //   	-webkit-animation:fadeup 1s linear ;
 //   		animation-duration: 1s;
@@ -331,54 +303,43 @@ body {
 // 	animation-play-state: running;
 // 	animation-fill-mode: forwards;
 
-
 // }
 
-
 @-webkit-keyframes fadein {
-  from { opacity:0;
-  		padding: 9px 0 0 0;
- }
-  to {opacity:1;
-  		padding: 0 0 0 0;
-
-  }
+    from {
+        opacity: 0;
+        padding: 9px 0 0 0;
+    }
+    to {
+        opacity: 1;
+        padding: 0 0 0 0;
+    }
 }
 
 
 // Introduction
 
 .introduction {
-	-webkit-animation:fadein 1s linear ;
-  	animation-duration: 1s;
-	animation-timing-function: ease;
-	animation-iteration-count: 1;
-	animation-direction: normal;
-	animation-delay: 0;
-	animation-play-state: running;
-	animation-fill-mode: forwards;
-	width: 53%;
-	margin: 0 40% 0 8%;
-
-		h4 {
-			margin: 0 0 40px 0;
-		}
+    -webkit-animation: fadein 1s linear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 0;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    width: 53%;
+    margin: 0 40% 0 8%;
+    h4 {
+        margin: 0 0 40px 0;
+    }
 }
- 
-
-
 
 // Port Slice
 
 .portslice {
-	width: 90%;
-	height: 500px;
-	margin: 0 auto 20px auto;
-	background:pink;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto 20px auto;
+    background: pink;
 }
-
-
-
-
-
-
