@@ -20,24 +20,39 @@ input,select{vertical-align:middle}
       Body
 -------------------------------------------------------------*/
 
-body {
-	// background-color: #3979c6;
+html {
+	background-image: url("../images/large_image.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	// border-left: 10px solid #fff;
+	// border-right: 10px solid #fff;
+	// border-top: 10px solid #fff;
 	height: 100%;
+
+}
+body {
+	background-color: rgba(#3979c6, 0.4);
+	height: 100%;
+	color: #333;
 }
 
 .container {
-	background-image: url("../images/large_image.jpg");
 	width: auto;
 	height: 100%;
 }
 
 	h1 {
 		font-family: sans-serif;
-    	font-size: 22px;
+    	font-size: 35px;
     	font-weight: 100;
-    	color: #113344;
+    	color: #333;
 		line-height: 1.25;
-		margin: 0 0 40px 0;
+		margin: 0 0 30px 0;
 	}
 
 	h2 {
@@ -57,21 +72,21 @@ body {
 	}
 
 	p {
-		font-family: sans-serif;
-		font-size: 15px;
-		color: #113344;
-		line-height: 1.125;
+		font-family: serif;
+		font-size: 18px;
+		color: #444;
+		line-height: 25px;
 		margin: 0 0 20px 0;
 		font-weight: 300;
 	}
 
 .box {
-	width: 300px;
-	background-color: #1999ff;
-	float: left;
-	border-right: 5px solid #1177aa;
-	border-radius: 3px;
-	padding: 0 40px 40px 40px;
+	width: 350px;
+	height:93%;
+	background-color: rgba(#fff, 0.85);
+	margin: 0 auto;
+	float:left; 
+	padding: 50px 40px 0 40px;
 
 	&:after {
 		content: "."; 
@@ -82,25 +97,22 @@ body {
 	}
 
 	.profileimage {
-		margin-top: 40px;
 		margin-bottom: 40px;
 		display: block;
-		width: 150px;
-		border-radius: 1000px;
-		border: 5px solid #11abff;
+		width: 93%;
 	}
 }
 
 
 
 .block {
-	width: 220px;
+	width: 210px;
 	height: 300px;
 	background-color: #fff;
 	margin: 14px;
 	border: 1px solid #1177aa;
 	border-radius: 3px;
-	float: left;
+	float: right;
 	position: relative;
 	background-image: url("../images/cat.png");
 	background-size: 105%;
